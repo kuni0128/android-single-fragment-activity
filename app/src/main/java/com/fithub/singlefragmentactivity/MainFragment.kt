@@ -38,7 +38,7 @@ class MainFragment : Fragment() {
         // RecyclerViewを初期化する
         list_recycler_view.apply {
             layoutManager = LinearLayoutManager(activity)
-            adapter = ListAdapter(mNicolasCageMovies)
+            adapter = MovieListAdapter(mNicolasCageMovies)
         }
     }
 
